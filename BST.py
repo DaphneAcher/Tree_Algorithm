@@ -84,9 +84,6 @@ class BST:
         print_(self.root)
 
 
-
-
-
 tree = BST()
 for num in [8,3,1,6,4,7,10,14,13]:
     tree.insert(num)
@@ -96,9 +93,7 @@ tree.print_tree()
 print(tree.search(6))
 
 x = 4
-
 tree.insert(x)
-
 tree.print_tree()
 
 
